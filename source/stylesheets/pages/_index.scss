@@ -1,3 +1,184 @@
 // Import page-specific CSS files here.
 @import "home";
 @import "about";
+
+body {
+ font-family: Letter Gothic STD;
+}
+
+.intro-text {
+  padding: 10vh 0;
+}
+
+.section-heading {
+ h2 {
+  font-size: 18px;
+  color: #484848;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+}
+
+.header {
+  text-align: center;
+  height: 83vh;
+  padding: 30px 0;
+  background-color: #a0a0a017;
+  .head-icon-brand {
+    width: 130px;
+  }
+}
+
+
+.port-link {
+  background-color: #ff5151;
+  height: 70vh;
+  h1 {
+    color: white;
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .left {
+    height: 60vh;
+    padding: 60px 49px;
+  }
+  .right {
+    background-image: url("../images/port-intro.png");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .header {
+    text-align: center;
+    height: 50vh;
+    background-color: #a0a0a017;
+  }
+  .port-link {
+  background-color: #ff5151;
+  height: 50vh;
+  h1 {
+    color: white;
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .left {
+    height: 50vh;
+    padding: 80px 49px;
+  }
+  .right {
+    background-image: url("../images/port-intro.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .header {
+    text-align: center;
+    height: 50vh;
+    background-color: #a0a0a017;
+  }
+  .port-link {
+  background-color: #ff5151;
+  height: 50vh;
+  h1 {
+    color: white;
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .left {
+    height: 50vh;
+    padding: 80px 49px;
+  }
+  .right {
+    background-image: url("../images/port-intro.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .header {
+    text-align: center;
+    height: 50vh;
+    background-color: #a0a0a017;
+  }
+  .port-link {
+  background-color: #ff5151;
+  height: 50vh;
+  h1 {
+    color: white;
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .left {
+    height: 50vh;
+    padding: 80px 49px;
+  }
+  .right {
+    background-image: url("../images/port-intro.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .header {
+    text-align: center;
+    height: 60vh;
+    background-color: #a0a0a017;
+  }
+  .port-link {
+  background-color: #ff5151;
+  height: 50vh;
+  h1 {
+    color: white;
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .left {
+    height: 50vh;
+    padding: 80px 49px;
+  }
+  .right {
+    background-image: url("../images/port-intro.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}
+}

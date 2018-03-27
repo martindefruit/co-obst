@@ -1,0 +1,36 @@
+
+.card {
+  h1 {
+    font-size: 30px;
+  }
+  height: 510px;
+  text-align: center;
+  padding: 0;
+.img-service-a {
+    height: 340px;
+    background-image: url('../images/branding-img.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .img-service-b {
+    height: 340px;
+    background-image: url('../images/graphic-design-img.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .img-service-c {
+    height: 340px;
+    background-image: url('../images/web-design-img.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.card-a {
+  background-color: #f2f2f2;
+}
+
+.card-b {
+  background-color: white;
+}
+
