@@ -6,8 +6,137 @@ body {
  font-family: Letter Gothic STD;
 }
 
+
+.container-ani {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 25px;
+  color: #5d5d5d;
+}
+.dud {
+  color: #a8a8a8;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+  font-weight: 100;
+  padding-top: 5%;
+  h1{
+    color: #fff;
+    text-decoration: none;
+    span{
+      font-weight: 100;
+      transition: all .5s;
+    }
+    span:nth-child(2){
+      transition-delay: .1s;
+    }
+    span:nth-child(3){
+      transition-delay: .2s;
+    }
+    span:nth-child(4){
+      transition-delay: .3s;
+    }
+    &:hover{
+      span{
+        font-weight: 700;
+      }
+      span:nth-child(4){
+        transition-delay: .3s;
+      }
+      span:nth-child(3){
+        transition-delay: .2s;
+      }
+      span:nth-child(2){
+        transition-delay: .1s;
+      }
+      span:nth-child(1){
+        transition-delay: 0s;
+      }
+    }
+
+
+    &.hover-shadow{
+      &:hover{
+        text-decoration: none;
+        $color: #ddd;
+      }
+    }
+    &.hover-color{
+      &:hover{
+        text-decoration: none;
+        $color: #ddd;
+
+      }
+    }
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+    span{
+      font-weight: 100;
+      transition: all .5s;
+    }
+    span:nth-child(2){
+      transition-delay: .1s;
+    }
+    span:nth-child(3){
+      transition-delay: .2s;
+    }
+    span:nth-child(4){
+      transition-delay: .3s;
+    }
+    &:hover{
+      span{
+        font-weight: 700;
+      }
+      span:nth-child(4){
+        transition-delay: .3s;
+      }
+      span:nth-child(3){
+        transition-delay: .2s;
+      }
+      span:nth-child(2){
+        transition-delay: .1s;
+      }
+      span:nth-child(1){
+        transition-delay: 0s;
+      }
+    }
+
+
+    &.hover-shadow{
+      &:hover{
+        text-decoration: none;
+        $color: #ddd;
+      }
+    }
+    &.hover-color{
+      &:hover{
+        text-decoration: none;
+        $color: #ddd;
+
+      }
+    }
+  }
+}
+
+
+
+
 .intro-text {
-  padding: 10vh 0;
+  padding: 17vh 0;
+  z-index: 1;
 }
 
 .section-heading {
@@ -23,8 +152,7 @@ body {
 .header {
   text-align: center;
   height: 83vh;
-  padding: 30px 0;
-  background-color: #a0a0a017;
+  background-color: #ffffff;
   .head-icon-brand {
     width: 130px;
   }
@@ -41,7 +169,7 @@ body {
   h2 {
     font-size: 18px;
     color: white;
-    text-transform: uppercase;
+    font-family: "Letter Gothic STD";
   }
   .left {
     height: 60vh;
@@ -60,31 +188,30 @@ body {
   .header {
     text-align: center;
     height: 50vh;
-    background-color: #a0a0a017;
+    background-color: #ffffff;
   }
   .port-link {
-  background-color: #ff5151;
-  height: 50vh;
-  h1 {
-    color: white;
-    font-size: 46px;
-  }
-  h2 {
-    font-size: 18px;
-    color: white;
-    text-transform: uppercase;
-  }
-  .left {
+    background-color: #ff5151;
     height: 50vh;
-    padding: 80px 49px;
+    h1 {
+      color: white;
+      font-size: 46px;
+    }
+    h2 {
+      font-size: 18px;
+      color: white;
+    }
+    .left {
+      height: 50vh;
+      padding: 80px 49px;
+    }
+    .right {
+      background-image: url("../images/port-intro.png");
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+    }
   }
-  .right {
-    background-image: url("../images/port-intro.png");
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-  }
-}
 }
 
 // Medium devices (tablets, 768px and up)
@@ -92,31 +219,30 @@ body {
   .header {
     text-align: center;
     height: 50vh;
-    background-color: #a0a0a017;
+    background-color: #ffffff;
   }
   .port-link {
-  background-color: #ff5151;
-  height: 50vh;
-  h1 {
-    color: white;
-    font-size: 46px;
-  }
-  h2 {
-    font-size: 18px;
-    color: white;
-    text-transform: uppercase;
-  }
-  .left {
+    background-color: #ff5151;
     height: 50vh;
-    padding: 80px 49px;
+    h1 {
+      color: white;
+      font-size: 46px;
+    }
+    h2 {
+      font-size: 18px;
+      color: white;
+    }
+    .left {
+      height: 50vh;
+      padding: 80px 49px;
+    }
+    .right {
+      background-image: url("../images/port-intro.png");
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+    }
   }
-  .right {
-    background-image: url("../images/port-intro.png");
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-  }
-}
 }
 
 // Large devices (desktops, 992px and up)
@@ -124,31 +250,30 @@ body {
   .header {
     text-align: center;
     height: 50vh;
-    background-color: #a0a0a017;
+    background-color: #ffffff;
   }
   .port-link {
-  background-color: #ff5151;
-  height: 50vh;
-  h1 {
-    color: white;
-    font-size: 46px;
-  }
-  h2 {
-    font-size: 18px;
-    color: white;
-    text-transform: uppercase;
-  }
-  .left {
+    background-color: #ff5151;
     height: 50vh;
-    padding: 80px 49px;
+    h1 {
+      color: white;
+      font-size: 46px;
+    }
+    h2 {
+      font-size: 18px;
+      color: white;
+    }
+    .left {
+      height: 50vh;
+      padding: 80px 49px;
+    }
+    .right {
+      background-image: url("../images/port-intro.png");
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+    }
   }
-  .right {
-    background-image: url("../images/port-intro.png");
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-  }
-}
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -156,29 +281,28 @@ body {
   .header {
     text-align: center;
     height: 60vh;
-    background-color: #a0a0a017;
+    background-color: #ffffff;
   }
   .port-link {
-  background-color: #ff5151;
-  height: 50vh;
-  h1 {
-    color: white;
-    font-size: 46px;
-  }
-  h2 {
-    font-size: 18px;
-    color: white;
-    text-transform: uppercase;
-  }
-  .left {
+    background-color: #ff5151;
     height: 50vh;
-    padding: 80px 49px;
+    h1 {
+      color: white;
+      font-size: 46px;
+    }
+    h2 {
+      font-size: 18px;
+      color: white;
+    }
+    .left {
+      height: 50vh;
+      padding: 80px 49px;
+    }
+    .right {
+      background-image: url("../images/port-intro.png");
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+    }
   }
-  .right {
-    background-image: url("../images/port-intro.png");
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-  }
-}
 }

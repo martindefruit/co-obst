@@ -1,19 +1,18 @@
 <div class="header">
   <div class="container">
     <div class="intro-text">
-      <div class="img-header">
-       <%= image_tag "icon_head.png", class: "head-icon-brand" %>
-     </div>
-     <h1>Make your big ideas as reality for a small budget</h1>
-     <p></p>
-   </div>
- </div>
+      <div class="container-ani">
+        <p><div class="text"></div></p>
+      </div>
+        <h1>Welcome to my design portfolio</h1>
+    </div>
+  </div>
 </div>
 <div class="port-link">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-md-7 left">
-        <h2>portfolio</h2>
+        <h2>Portfolio</h2>
         <h1>i make brands visible through smart design.</h1>
         <% link_to "portfolio.html" do %>
         <button class="btn-custom">My Work</button>
@@ -23,10 +22,8 @@
     </div>
   </div>
 </div>
+<div><%= partial "layouts/bigcta" %></div>
 <div class="container-fluid">
-  <div class="section-heading">
-    <h2>Services</h2>
-  </div>
   <div class="row">
     <div class="services-section">
       <div class="services-cards">
@@ -76,4 +73,3 @@
     </div>
   </div>
 </div>
-<div><%= partial "layouts/bigcta" %></div>
