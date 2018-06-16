@@ -23,6 +23,43 @@ body {
   color: #a8a8a8;
 }
 
+.my-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.about-text {
+  width: 893px;
+  margin: auto;
+  padding: 30px;
+ h1 {
+    color: #b3b3b3;
+    line-height: 36px;
+    font-weight: 100;
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 26px;
+    color: #5d5d5d;
+  }
+}
+
+.about-intro {
+  width: 893px;
+  margin: auto;
+  margin-top: 60px;
+  padding: 30px;
+ h1 {
+    color: #5d5d5d;
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #5d5d5d;
+    font-family: "Letter Gothic STD";
+  }
+}
 
 .wrapper {
   display: flex;
@@ -30,7 +67,6 @@ body {
   align-items: center;
   font-size: 5vw;
   font-weight: 100;
-  padding-top: 5%;
   h1{
     color: #fff;
     text-decoration: none;
@@ -132,6 +168,10 @@ body {
 }
 
 
+.image-card {
+  background-color: white;
+  height: 500px;
+}
 
 
 .intro-text {
@@ -158,6 +198,20 @@ body {
   }
 }
 
+.lng-icons {
+  list-style: none;
+  display: flex;
+  text-align: left;
+  padding-left: 0;
+  font-size: 30px;
+  li {
+    padding: 5px;
+  }
+  img {
+    height: 40px;
+    opacity: .6;
+  }
+}
 
 .port-link {
   background-color: #ff5151;
@@ -306,3 +360,5 @@ body {
     }
   }
 }
+
+

@@ -1,3 +1,15 @@
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .heading-cta {
+ background-color: #ffb938;
+ text-align: center;
+ height: 300px;
+ padding: 90px 0;
+ h1 {
+  color: white;
+ }
+}
 .big-cta {
  background-color: #ffb938;
  text-align: center;
@@ -7,3 +19,50 @@
   color: white;
  }
 }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .heading-cta {
+ background-color: #ffb938;
+ text-align: center;
+ height: 300px;
+ padding: 90px 0;
+ h1 {
+  color: white;
+ }
+}
+.big-cta {
+ background-color: #ffb938;
+ text-align: center;
+ height: 300px;
+ padding: 40px 0;
+ h1 {
+  color: white;
+ }
+}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .heading-cta {
+ background-color: #ffb938;
+ text-align: center;
+ height: 300px;
+ padding: 90px 0;
+ h1 {
+  color: white;
+ }
+}
+.big-cta {
+ background-color: #ffb938;
+ text-align: center;
+ height: 300px;
+ padding: 40px 0;
+ h1 {
+  color: white;
+ }
+}
+}
+
+

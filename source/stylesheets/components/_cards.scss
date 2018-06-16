@@ -6,7 +6,7 @@
   height: 510px;
   text-align: center;
   padding: 0;
-.img-service-a {
+  .img-service-a {
     height: 340px;
     background-image: url('../images/branding-img.png');
     background-size: cover;
@@ -33,4 +33,89 @@
 .card-b {
   background-color: white;
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .card-c{
+    background-color: #ff5151;
+    height: 50vh;
+    h1 {
+      color: white;
+      font-size: 46px;
+    }
+    h2 {
+     font-size: 18px;
+    color: white;
+    font-family: "Letter Gothic STD";
+  }
+   .left {
+    height: 50vh;
+    padding: 80px 49px;
+  }
+  .right {
+    background-image: url("../images/web-dev-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .card-c {
+    background-color: #ff5151;
+    height: 50vh;
+    h1 {
+      color: white;
+      font-size: 46px;
+    }
+    h2 {
+     font-size: 18px;
+    color: white;
+    font-family: "Letter Gothic STD";
+  }
+   .left {
+    height: 50vh;
+    padding: 80px 49px;
+  }
+  .right {
+    background-image: url("../images/web-dev-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .card-c {
+    background-color: #ff5151;
+    height: 50vh;
+    h1 {
+      color: white;
+      font-size: 46px;
+    }
+    h2 {
+     font-size: 18px;
+     color: white;
+     font-family: "Letter Gothic STD";
+   }
+   .left {
+    height: 50vh;
+    padding: 80px 49px;
+  }
+  .right {
+    background-image: url("../images/web-dev-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}
+}
+
 

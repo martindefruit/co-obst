@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "flickity": "^2.1.2"
+  },
+  "name": "UNLICENSED",
+  "version": "UNLICENSED",
+  "description": "UNLICENSED",
+  "main": "UNLICENSED",
+  "repository": "git@github.com:martindefruit/martindf.co.git",
+  "author": "Martin de Frutos <martindfru@gmail.com>",
+  "license": "MIT"
+}
