@@ -1,1 +1,20 @@
-show.html.erb
+<% project = data.projects[owner] %>
+
+
+
+<div class="background-items" style="<%= project.background %>">
+  <div class="container">
+    <div class="row">
+      <p class="text-center intro">THIS IS:</p>
+      <h1 class="text-center intro"><%= project.city_name %></h1>
+      <p class="text-center intro">Found @<%= project.name %></p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Inject project data in template -->
+
+
+

@@ -1,7 +1,7 @@
 // Import page-specific CSS files here.
 @import "home";
 @import "about";
-
+@import "web_dev";
 body {
  font-family: Letter Gothic STD;
 }
@@ -33,7 +33,7 @@ body {
   width: 893px;
   margin: auto;
   padding: 30px;
- h1 {
+  h1 {
     color: #b3b3b3;
     line-height: 36px;
     font-weight: 100;
@@ -50,7 +50,7 @@ body {
   margin: auto;
   margin-top: 60px;
   padding: 30px;
- h1 {
+  h1 {
     color: #5d5d5d;
     font-size: 46px;
   }
@@ -169,8 +169,12 @@ body {
 
 
 .image-card {
-  background-color: white;
-  height: 500px;
+     background-image: url(../images/abcf.jpeg);
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+    height: 280px;
+
 }
 
 
@@ -199,6 +203,23 @@ body {
 }
 
 .lng-icons {
+  list-style: none;
+  display: flex;
+  text-align: left;
+  padding-left: 0;
+  font-size: 30px;
+  li {
+    padding: 5px;
+  }
+  img {
+    height: 40px;
+    opacity: .6;
+  }
+}
+
+.lng-icons-s {
+  width: 230px;
+  margin: auto;
   list-style: none;
   display: flex;
   text-align: left;
@@ -361,4 +382,69 @@ body {
   }
 }
 
+.move-up {
+  margin-top: -70px;
+}
 
+.move-up-services {
+  margin-top: -70px;
+}
+
+
+.image-thing {
+  img {
+
+    margin-top: -20px;
+    width: 100px;
+  }
+}
+
+.code-img  {
+  img {
+    position: absolute;
+    top: -34px;
+    left: 533px;
+    width: 540px;
+  }
+}
+
+.socmed-img {
+  width: 1050px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image-about-me {
+ margin: 29px;
+ img {
+  width: 300px;
+  height: 300px;
+}
+}
+
+.time-line {
+  display: flex;
+}
+
+.web-dev-container {
+  margin-bottom: 30px;
+}
+
+.checkbox-container {
+   margin-top: 33px;
+   margin-bottom: 33px;
+  h1 {
+    color: #b3b3b3;
+    line-height: 36px;
+    font-weight: 100;
+    font-size: 26px;
+  }
+  h2 {
+    color: #5d5d5d;
+    line-height: 36px;
+    font-weight: 100;
+    font-size: 26px;
+  }
+}

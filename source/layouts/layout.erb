@@ -3,21 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- CSS -->
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
-    <div><%= partial "layouts/navbar" %></div>
+     <div><%= partial "layouts/navbar" %></div>
     <%= yield %>
     <div><%= partial "layouts/footer" %></div>
 <!-- JavaScript -->
+     <%= javascript_include_tag "application" %>
+        <!-- Bootstrap core JavaScript -->
   </body>
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </html>

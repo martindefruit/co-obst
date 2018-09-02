@@ -1,10 +1,12 @@
 .btn-custom {
-  background-color: #ff5151;
+  background-color: #f4f4f4;
   font-size: 18px;
-  color: white;
+  color: #c2c2c2;
   border: solid 2px white;
-  border-radius: 34px;
+  /* border-radius: 34px; */
   padding: 12px 44px;
+  margin-left: 41px;
+  margin-top: 33px;
 }
 
 .btn-secondary {
@@ -16,3 +18,12 @@
   padding: 12px 44px;
 }
 
+.btn-custom-2 {
+  background-color: #f4f4f4;
+  font-size: 18px;
+  color: #c2c2c2;
+  border: solid 2px white;
+  /* border-radius: 34px; */
+  padding: 12px 44px;
+  margin-top: 33px;
+}

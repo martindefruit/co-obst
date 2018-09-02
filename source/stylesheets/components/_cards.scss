@@ -1,121 +1,273 @@
+.card__image {
+  img {
+    width: 100%;
+  }
+    overflow: hidden;
+}
 
 .card {
   h1 {
     font-size: 30px;
   }
-  height: 510px;
+  height: 85px;
+  margin: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.0500);
+  width: 360px;
   text-align: center;
   padding: 0;
   .img-service-a {
-    height: 340px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    height: 260px;
+    transition: ease 1s;
     background-image: url('../images/branding-img.png');
     background-size: cover;
     background-position: center;
   }
   .img-service-b {
-    height: 340px;
-    background-image: url('../images/graphic-design-img.png');
+    height: 260px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    background-image: url('../images/gd1.jpg');
     background-size: cover;
     background-position: center;
+    transition: ease 1s;
   }
   .img-service-c {
-    height: 340px;
-    background-image: url('../images/web-design-img.png');
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    height: 260px;
+    background-image: url('../images/neacut.jpg');
     background-size: cover;
+    transition: ease 1s;
     background-position: center;
   }
 }
 
+
 .card-a {
-  background-color: #f2f2f2;
+  overflow: hidden;
+  background-color: white;
+  &.active {
+    color: white;
+    border: solid 4px white;
+    background-color: #333333;
+  }
 }
 
 .card-b {
+  overflow: hidden;
   background-color: white;
+}
+
+.img-service-a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  background-image: url('../images/branding-img.png');
+  background-size: cover;
+  transition: ease 1s;
+  background-position: center;
+}
+.img-service-b:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  background-image: url('../images/graphic-design-img.png');
+  background-size: cover;
+  transition: ease 1s;
+  background-position: center;
+}
+.img-service-c:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  background-image: url('../images/web-design-img.png');
+  background-size: cover;
+  transition: ease 1s;
+  background-position: center;
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
   .card-c{
-    background-color: #ff5151;
-    height: 50vh;
+    height: 350px;
+    margin: 30px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+
     h1 {
-      color: white;
+      color: #5d5d5d;
       font-size: 46px;
     }
     h2 {
      font-size: 18px;
-    color: white;
-    font-family: "Letter Gothic STD";
-  }
+     color: #5d5d5d;
+     font-family: "Letter Gothic STD";
+   }
    .left {
-    height: 50vh;
-    padding: 80px 49px;
+    height: 350px;
+    padding: 76px 69px;
+
   }
   .right {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     background-image: url("../images/web-dev-img.jpg");
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 350px;
   }
 }
+
+.card-c:hover {
+
+  transition: ease .5s;
+  .right {
+
+    transition: ease .5s;
+  }
+}
+
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
   .card-c {
-    background-color: #ff5151;
-    height: 50vh;
+    height: 350px;
+    margin: 30px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+
     h1 {
-      color: white;
+      color: #5d5d5d;
       font-size: 46px;
     }
     h2 {
      font-size: 18px;
-    color: white;
-    font-family: "Letter Gothic STD";
-  }
+     color: #5d5d5d;
+     font-family: "Letter Gothic STD";
+   }
    .left {
-    height: 50vh;
-    padding: 80px 49px;
+    height: 350px;
+    padding: 76px 69px;
+
   }
   .right {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     background-image: url("../images/web-dev-img.jpg");
     background-size: cover;
     background-position: center;
-    height: 50vh;
+
   }
 }
+
+.card-c:hover {
+
+  transition: ease .5s;
+  .right {
+
+    transition: ease .5s;
+  }
+}
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
   .card-c {
-    background-color: #ff5151;
-    height: 50vh;
+    height: 350px;
+    margin: 30px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    transition: ease .5s;
     h1 {
-      color: white;
+      color: #5d5d5d;
       font-size: 46px;
     }
     h2 {
      font-size: 18px;
-     color: white;
+     color: #5d5d5d;
      font-family: "Letter Gothic STD";
    }
    .left {
-    height: 50vh;
-    padding: 80px 49px;
+    height: 350px;
+    padding: 76px 69px;
+
   }
   .right {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     background-image: url("../images/web-dev-img.jpg");
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 350px;
+    transition: ease .5s;
   }
 }
+
+.card-c:hover {
+
+  transition: ease .5s;
+  .right {
+
+    transition: ease .5s;
+  }
 }
+
+
+}
+
+.port-index {
+    padding: 0px 0px 0px 101px;
+    color: black;
+}
+
+.carousel-item{
+  padding: 30px 20px;
+  float: left;
+}
+
+.card-pro {
+
+  .title {
+    h1 {
+    font-weight: 100;
+    margin: 27px;
+    font-size: 30px;
+    color: #5d5d5d;
+    text-align: center;
+    }
+  }
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,.0500);
+  width: 320px;
+  height: 360px;
+
+  &__image{
+    overflow: hidden;
+    position: relative;
+
+
+  }
+
+  &__info{
+    padding: 30px 30px 50px;
+  }
+
+  &__title{
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 1;
+  }
+  &__desc{
+    opacity: .5;
+  }
+}
+
+.car {
+  h1 {
+    padding-left: 21px;
+    font-size: 30px;
+    color: #5d5d5d;
+  }
+}
+
 
 

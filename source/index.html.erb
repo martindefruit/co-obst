@@ -4,10 +4,13 @@
       <div class="container-ani">
         <p><div class="text"></div></p>
       </div>
+
       <h1>i make brands visible through smart design</h1>
     </div>
   </div>
 </div>
+
+
 <div class="heading-cta">
   <div class="row">
     <div class="text">
@@ -19,71 +22,36 @@
    </div>
  </div>
 </div>
-<div class="card-c">
+<div class="move-up">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-md-7 left">
-        <h1>web development</h1>
-        <h2>Lorem ipsum sit amet</h2>
-        <ul class="lng-icons">
-          <li><img src="images/icon-01.svg"></li>
-          <li><img src="images/icon-02.svg"></li>
-          <li><img src="images/icon-03.svg"></li>
-          <li><img src="images/icon-01.svg"></li>
-        </ul>
-        <div class="cta">
-          <% link_to "portfolio.html" do %>
-          <button class="btn-custom">See More</button>
-          <% end %>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-5 right"></div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="services-section">
-      <div class="services-cards">
-        <div class="card card-a col-xs-12 col-md-4">
-          <div class="img-service-a">
-          </div>
-          <div class="text">
-            <div class="title">
-              <h1>branding</h1>
-            </div>
-            <div class="cta">
-              <% link_to "portfolio.html" do %>
-              <button class="btn-custom">See More</button>
-              <% end %>
+      <div class="services-section">
+        <div class="services-cards">
+          <div id="1" class="card card-a col-xs-12 col-md-4">
+            <div class="text">
+              <div class="title">
+                <h1>branding</h1>
+              </div>
+              <div class="cta">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card card-b col-xs-12 col-md-4">
-          <div class="img-service-b">
-          </div>
-          <div class="text">
-            <div class="title">
-              <h1>Graphic Design</h1>
-            </div>
-            <div class="cta">
-              <% link_to "portfolio.html" do %>
-              <button class="btn-custom">See More</button>
-              <% end %>
+          <div id="2" class="card card-a col-xs-12 col-md-4">
+            <div class="text">
+              <div class="title">
+                <h1>Graphic Design</h1>
+              </div>
+              <div class="cta">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card card-a col-xs-12 col-md-4">
-          <div class="img-service-c">
-          </div>
-          <div class="text">
-            <div class="title">
-              <h1>Web Design</h1>
-            </div>
-            <div class="cta">
-              <% link_to "portfolio.html" do %>
-              <button class="btn-custom">See More</button>
-              <% end %>
+          <div id="3" class="card card-a col-xs-12 col-md-4">
+            <div class="text">
+              <div class="title">
+                <h1>Web Design</h1>
+              </div>
+              <div class="cta">
+              </div>
             </div>
           </div>
         </div>
@@ -91,6 +59,9 @@
     </div>
   </div>
 </div>
+
+<%= partial "layouts/car" %></div>
+
 <div class="heading-cta">
   <div class="row">
     <div class="text">
@@ -104,35 +75,42 @@
 </div>
 
 <div class="about-me">
+  <div class="container">
   <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
-      <div class="image-card">
-      </div>
-    </div>
-    <div class="about-text">
-      <div class="col-xs-10">
-        <h1>My name is Martin de Frutos and I was born in  in BogoTA, Colombia. After completing my studies at School of The Art Institute of Chicago, I established myself in Europe working for Ogilvy and Mather Spain, before relocating to Berlin to persue my passion for technology.</h1>
-      </div>
-    </div>
-    <div class="about-text">
-      <div class="col-xs-6">
-        <h2>education</h2>
-        <h1>My name is Martin de Frutos and I was born in  in BogoTA, Colombia.</h1>
-      </div>
-    </div>
-    <div class="about-text">
-      <div class="col-xs-6">
-        <h2>work experience</h2>
-        <ul>
-          <li><h1>Graphic Designer - Killian Branding - Chicago Il</h1></li>
-        </ul>
-
+      <div class="move-up">
+        <div class="image-card">
+        </div>
+        <div class="about-text">
+          <div class="col-xs-10">
+            <h1>My name is Martin de Frutos and I was born in  in BogoTA, Colombia. After completing my studies at School of The Art Institute of Chicago, I established myself in Europe working for Ogilvy and Mather Spain, before relocating to Berlin to persue my passion for technology.</h1>
+          </div>
+        </div>
+        <div class="col-xs-10">
+        <div class="time-line">
+          <img id="c-1" src="../images/circle.svg" alt="">
+          <img id="c-2" src="../images/circle.svg" alt="">
+          <img id="c-3" src="../images/circle.svg" alt="">
+          <img id="c-4" src="../images/circle.svg" alt="">
+        </div>
+        </div>
+        <% link_to "projects/ssaunier.html" do %>
+        <button class="btn-custom">See More</button>
+        <% end %>
       </div>
     </div>
   </div>
-</div>
-<div class="socmed-img">
-  <img src="img-1" alt="" class="social">
-  <img src="img-2" alt="" class="social">
-  <img src="img-3" alt="" class="social">
-</div>
+  </div>
+  <div class="hidden socmed-img">
+    <div class="hidden image-about-me">
+      <img src="../images/img-1.png" alt="" class="social">
+    </div>
+    <div class="hidden  image-about-me">
+      <img src="../images/img-2.png" alt="" class="social">
+    </div>
+    <div class="hidden image-about-me">
+      <img src="../images/img-3.png" alt="" class="social">
+    </div>
+  </div>
+
+

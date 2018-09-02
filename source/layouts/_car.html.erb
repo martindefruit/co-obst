@@ -1,0 +1,22 @@
+<div class="port-index">
+  <div class="car info">
+    <h1>all my projects</h1>
+  </div>
+  <div class="carousel">
+    <% data.projects.each do |title, project| %>
+    <div class="carousel-item">
+      <div class="card-pro">
+        <div class="card__image"><img src="<%= image_path(project.image) %>" alt=""/>
+        </div>
+        <div class="card__info">
+           <div class="text">
+              <div class="title">
+                <h1>branding</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
