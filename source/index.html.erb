@@ -9,8 +9,6 @@
     </div>
   </div>
 </div>
-
-
 <div class="heading-cta">
   <div class="row">
     <div class="text">
@@ -27,30 +25,46 @@
     <div class="row">
       <div class="services-section">
         <div class="services-cards">
-          <div id="1" class="card card-a col-xs-12 col-md-4">
+          <div id="one" class="card card-a col-xs-12 col-md-4">
             <div class="text">
               <div class="title">
-                <h1>branding</h1>
+                <h1>Digital</h1>
               </div>
-              <div class="cta">
+               <div class="main-services">
+                <ul>
+                  <li>Website Design & Development</li>
+                  <li>UI & UX Design</li>
+                </ul>
+                <%= link_to "Learn More", "graphic_design.html", class: 'btn-card' %>
+               </div>
               </div>
-            </div>
-          </div>
+           </div>
           <div id="2" class="card card-a col-xs-12 col-md-4">
             <div class="text">
               <div class="title">
-                <h1>Graphic Design</h1>
+                <h1>Creative</h1>
               </div>
-              <div class="cta">
+               <div class="main-services">
+                <ul>
+                  <li>Iconography & Illustration</li>
+                  <li>Graphic Design & Art Direction for Brands</li>
+                </ul>
+                <%= link_to "Learn More", "graphic_design.html", class: 'btn-card' %>
+               </div>
               </div>
             </div>
-          </div>
           <div id="3" class="card card-a col-xs-12 col-md-4">
             <div class="text">
               <div class="title">
-                <h1>Web Design</h1>
+                <h1>Branding</h1>
               </div>
-              <div class="cta">
+              <div class="main-services">
+                 <ul>
+                  <li>Brand Development</li>
+                  <li>Logo Design</li>
+                </ul>
+                <%= link_to "Learn More", "graphic_design.html", class: 'btn-card' %>
+              </div>
               </div>
             </div>
           </div>
@@ -59,9 +73,7 @@
     </div>
   </div>
 </div>
-
 <%= partial "layouts/car" %></div>
-
 <div class="heading-cta">
   <div class="row">
     <div class="text">
@@ -73,44 +85,68 @@
    </div>
  </div>
 </div>
-
 <div class="about-me">
   <div class="container">
   <div class="row">
-    <div class="col-xs-8 col-xs-offset-2">
+    <div class="col-xs-12">
       <div class="move-up">
-        <div class="image-card">
-        </div>
-        <div class="about-text">
-          <div class="col-xs-10">
-            <h1>My name is Martin de Frutos and I was born in  in BogoTA, Colombia. After completing my studies at School of The Art Institute of Chicago, I established myself in Europe working for Ogilvy and Mather Spain, before relocating to Berlin to persue my passion for technology.</h1>
+        <div class="image-card" style="background-image: url(<%= image_path('profile_2.png') %>)">
+
+          <div class="card-about">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item active">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Who am I</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Freelance</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Teaching</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+               <div class="tab-pane fade active in" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="text general">
+                  <div class="title">
+                    <h1>Hello My Name is Martin</h1>
+                  </div>
+                  <div class="sub-title">
+                    <p>Im a graphic designer turned web-developer passionate about educating people about design.</p>
+                    <p>Currently I work with companies around Europe coming up with creative solutions for their communication challenges.</p>
+                    <p>I also work part-time as an instructor @LeWagon - Europes leading web-development bootcamp.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+               <div class="text freelance">
+                <div class="title">
+                  <h1>Web Development & Branding </h1>
+                </div>
+                <div class="sub-title">
+                  <p>Im a graphic designer turned web-developer passionate about educating people about design.</p>
+                  <p>Currently I work with companies around Europe coming up with creative solutions for their communication challenges.</p>
+                  <p>I also work part-time as an instructor @LeWagon - Europes leading web-development bootcamp.</p>
+                </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                 <div class="text lewagon">
+                  <div class="title">
+                    <h1>The Power of Coding</h1>
+                  </div>
+                  <div class="sub-title">
+                    <p>Im a graphic designer turned web-developer passionate about educating people about design.</p>
+                    <p>Currently I work with companies around Europe coming up with creative solutions for their communication challenges.</p>
+                    <p>I also work part-time as an instructor @LeWagon - Europes leading web-development bootcamp.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-xs-10">
-        <div class="time-line">
-          <img id="c-1" src="../images/circle.svg" alt="">
-          <img id="c-2" src="../images/circle.svg" alt="">
-          <img id="c-3" src="../images/circle.svg" alt="">
-          <img id="c-4" src="../images/circle.svg" alt="">
-        </div>
-        </div>
-        <% link_to "projects/ssaunier.html" do %>
-        <button class="btn-custom">See More</button>
-        <% end %>
       </div>
     </div>
   </div>
-  </div>
-  <div class="hidden socmed-img">
-    <div class="hidden image-about-me">
-      <img src="../images/img-1.png" alt="" class="social">
-    </div>
-    <div class="hidden  image-about-me">
-      <img src="../images/img-2.png" alt="" class="social">
-    </div>
-    <div class="hidden image-about-me">
-      <img src="../images/img-3.png" alt="" class="social">
-    </div>
-  </div>
+</div>
 
 

@@ -3,7 +3,7 @@
 @import "about";
 @import "web_dev";
 body {
- font-family: Letter Gothic STD;
+ font-family: Roboto;
 }
 
 
@@ -57,7 +57,7 @@ body {
   h2 {
     font-size: 18px;
     color: #5d5d5d;
-    font-family: "Letter Gothic STD";
+    font-family: "Roboto";
   }
 }
 
@@ -68,8 +68,12 @@ body {
   font-size: 5vw;
   font-weight: 100;
   h1{
-    color: #fff;
+    color: #5d5d5d;
+    font-size: 18px;
     text-decoration: none;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
     span{
       font-weight: 100;
       transition: all .5s;
@@ -168,13 +172,52 @@ body {
 }
 
 
+.card-about {
+  padding: 18px 40px;
+  background-color: white;
+  font-size: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  width: 536px;
+  height: 360px;
+    .sub-title {
+      position: absolute;
+      left: 83px;
+      top: 80px;
+      color: #a0a0a0;
+      font-size: 15px;
+      width: 460px;
+      top: 106px;
+    }
+  .title {
+    position: absolute;
+    left: 83px;
+    font-size: 31px;
+    width: 460px;
+    top: 30px;
+    hr {
+      margin-top: 17px;
+      border-radius: 23px;
+      border: 0;
+      border-top: 2px solid #ececec;
+    }
+    h1 {
+      font-size: 26px;
+    }
+  }
+}
 .image-card {
-     background-image: url(../images/abcf.jpeg);
-    background-size: cover;
-    background-color: white;
-    background-position: center;
-    height: 280px;
-
+    background-attachment: fixed;
+    padding: 28px;
+    background-size: contain;
+    background-image: url("profile_2.jpg"), url("profile_2.png");
+    background-repeat: no-repeat;
+    background-color: #00090f;
+    background-position-y: 250px;
+    background-size: contain;
+    background-position-x: 790px;
+    height: 422px;
 }
 
 
@@ -194,11 +237,13 @@ body {
 }
 
 .header {
+  margin: 74px;
+  box-shadow: 0px 11px 20px rgba(165, 165, 165, 0.08);
   text-align: center;
   height: 83vh;
   background-color: #ffffff;
   .head-icon-brand {
-    width: 130px;
+  width: 130px;
   }
 }
 
@@ -244,7 +289,7 @@ body {
   h2 {
     font-size: 18px;
     color: white;
-    font-family: "Letter Gothic STD";
+    font-family: "Roboto";
   }
   .left {
     height: 60vh;
@@ -448,3 +493,16 @@ body {
     font-size: 26px;
   }
 }
+
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #f44336;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.27);
+    }
+
+    a {
+      color: #acacac;
+      &:hover {
+        color: #acacac;
+      }
+    }

@@ -22,7 +22,7 @@ activate :deploy do |deploy|
 end
 
 
-["papillard", "ssaunier", "monsieurpaillard", "martindefruit", "julzberlin", "nomiss233"].each do |name|
+["hamaca", "rookstars", "monsieurpaillard", "martindefruit", "julzberlin", "nomiss233"].each do |name|
   proxy "/projects/#{name}.html", "/projects/show.html", locals: { owner: name }, ignore: true
 end
 
