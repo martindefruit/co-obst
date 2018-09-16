@@ -34,3 +34,52 @@
   background-color: white;
 }
 
+
+.image-card {
+    background-attachment: fixed;
+    padding: 28px;
+    background-size: contain;
+    background-image: url("profile_2.jpg"), url("profile_2.png");
+    background-repeat: no-repeat;
+    background-color: #00090f;
+    background-position-y: 250px;
+    background-size: contain;
+    background-position-x: 790px;
+    height: 422px;
+}
+
+.card-about {
+  padding: 18px 40px;
+  background-color: white;
+  font-size: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  width: 536px;
+  height: 360px;
+    .sub-title {
+      position: absolute;
+      left: 83px;
+      top: 80px;
+      color: #a0a0a0;
+      font-size: 15px;
+      width: 460px;
+      top: 106px;
+    }
+  .title {
+    position: absolute;
+    left: 83px;
+    font-size: 31px;
+    width: 460px;
+    top: 30px;
+    hr {
+      margin-top: 17px;
+      border-radius: 23px;
+      border: 0;
+      border-top: 2px solid #ececec;
+    }
+    h1 {
+      font-size: 26px;
+    }
+  }
+}
