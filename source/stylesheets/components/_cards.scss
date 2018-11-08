@@ -19,12 +19,14 @@
 
 
 .card {
+   transition: ease 1s;
   .btn-card {
     font-size: 15px;
     width: 250px;
     width: 154px;
     position: absolute;
-    bottom: 33px;
+    bottom: -57px;
+    transition: ease 1s;
     left: 102px;
     border-radius: 2px;
     margin: auto;
@@ -55,23 +57,23 @@
     text-align: center;
     font-size: 15px;
   }
-    height: 245px;
-    margin: 0 30px;
+    height: 410px;
+
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.02);
-    width: 360px;
+
     text-align: center;
     padding: 0;
   .img-service-a {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    height: 260px;
+    height: 420px;
     transition: ease 1s;
     background-image: url('../images/branding-img.png');
     background-size: cover;
     background-position: center;
   }
   .img-service-b {
-    height: 260px;
+    height: 420px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     background-image: url('../images/gd1.jpg');
     background-size: cover;
@@ -80,17 +82,60 @@
   }
   .img-service-c {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    height: 260px;
-    background-image: url('../images/neacut.jpg');
+    height: 420px;
+    background-image: url('../images/port-intro.png');
     background-size: cover;
     transition: ease 1s;
     background-position: center;
   }
 }
 
+.card:hover {
+
+ .btn-card {
+    font-size: 15px;
+    width: 250px;
+    width: 154px;
+    transition: ease 1s;
+    position: absolute;
+    bottom: 33px;
+    left: 102px;
+    border-radius: 2px;
+    margin: auto;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #f44336;
+    -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.27);
+  }
+  .img-service-a {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    height: 0px;
+    transition: ease 1s;
+    background-image: url('../images/branding-img.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .img-service-b {
+    height: 0px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    background-image: url('../images/gd1.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: ease 1s;
+  }
+  .img-service-c {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    height: 330px;
+    background-image: url('../images/port-intro.png');
+    background-size: cover;
+    transition: ease 1s;
+    background-position: center;
+  }
+}
 
 .card-a {
-    padding: 0 34px;
+
     overflow: hidden;
     background-color: #ffffff;
 }
