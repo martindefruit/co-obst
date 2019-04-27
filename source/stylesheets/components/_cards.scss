@@ -8,7 +8,7 @@
 .tabs {
       width: 22px;
     border-radius: 0px 2px 2px 0px;
-    background-color: #ff5151;
+    background-color: #ff5959;
     position: absolute;
     height: 53px;
     top: -14px;
@@ -46,7 +46,7 @@
     margin-bottom: 9px;
   }
   h1 {
-    color: #5d5d5d;
+    color: #ffffff;
     font-size: 24px;
     padding-bottom: 9px;
     text-align: center;
@@ -67,18 +67,26 @@
   .img-service-a {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     height: 420px;
-    transition: ease 1s;
-    background-image: url('../images/branding-img.png');
     background-size: cover;
+    transition: ease 1s;
     background-position: center;
+    background-image: url('../images/branding-img.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
   .img-service-b {
-    height: 420px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    background-image: url('../images/gd1.jpg');
+    height: 420px;
     background-size: cover;
-    background-position: center;
     transition: ease 1s;
+    background-position: center;
+    background-image: url('../images/gd1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
   .img-service-c {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
@@ -87,6 +95,9 @@
     background-size: cover;
     transition: ease 1s;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -108,30 +119,18 @@
     -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.27);
     box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.27);
   }
-  .img-service-a {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    height: 0px;
-    transition: ease 1s;
-    background-image: url('../images/branding-img.png');
-    background-size: cover;
-    background-position: center;
-  }
-  .img-service-b {
-    height: 0px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    background-image: url('../images/gd1.jpg');
-    background-size: cover;
-    background-position: center;
-    transition: ease 1s;
-  }
-  .img-service-c {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    height: 330px;
-    background-image: url('../images/port-intro.png');
-    background-size: cover;
-    transition: ease 1s;
-    background-position: center;
-  }
+}
+
+.overlay {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  width: 300px;
+  opacity: 0;
+  background-color: #f4f4f4;
+  box-shadow: 1px 1px 18px #00000057;
 }
 
 .card-a {
@@ -146,25 +145,36 @@
 }
 
 .img-service-a:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  background-image: url('../images/branding-img.png');
-  background-size: cover;
-  transition: ease 1s;
-  background-position: center;
+   .overlay {
+    background-color: #f4f4f4;
+    transition: ease .5s;
+    opacity: 1;
+   }
+
 }
 .img-service-b:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  background-image: url('../images/graphic-design-img.png');
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   background-size: cover;
   transition: ease 1s;
   background-position: center;
+  .overlay {
+    background-color: #f4f4f4;
+    transition: ease 1s;
+    opacity: 1;
+   }
 }
 .img-service-c:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  background-image: url('../images/web-design-img.png');
   background-size: cover;
   transition: ease 1s;
   background-position: center;
+  .overlay {
+    background-color: #f4f4f4;
+    transition: ease 1s;
+    opacity: 1;
+    position: absolute;
+    bottom: -150px;
+   }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -303,14 +313,10 @@
 
 .port-index {
     padding-top: 25px;
-    -webkit-box-shadow: inset -1px -1px 20px rgba(0, 0, 0, 0.05);
-    box-shadow: inset -1px -1px 20px rgba(103, 103, 103, 0.07);
-    /* padding: 0px 0px 0px 101px; */
     color: black;
     height: 510px;
-    margin-top: 55px;
     color: black;
-}
+  }
 
 .carousel-item{
   padding: 30px 20px;
@@ -322,16 +328,17 @@
   .title {
     h1 {
     font-weight: 100;
-    margin: 27px;
-    font-size: 30px;
+    margin: 18px 25px;
+    font-size: 22px;
     color: #5d5d5d;
-    text-align: center;
+    text-align: left;
     }
   }
   background-color: white;
   overflow: hidden;
+  background-size: cover;
   box-shadow: 0 10px 20px rgba(0,0,0,.0500);
-  width: 320px;
+  width: 270px;
   height: 360px;
 
   &__image{

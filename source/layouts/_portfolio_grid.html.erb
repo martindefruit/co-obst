@@ -1,0 +1,22 @@
+ <section class="bg-light" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="section-heading text-uppercase">Gallery</h1>
+        </div>
+      </div>
+    <div class="container" style="width: 900px;">
+      <div class="row">
+         <% data.projects.each do |title, project| %>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+        
+            <img class="img-fluid" src="<%= image_path(project.image) %>" alt="">
+          </a>
+        </div>
+        <% end %>
+      </div>
+    </div>
+    </div>
+  </section>
+

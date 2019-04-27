@@ -2,8 +2,44 @@
 @import "home";
 @import "about";
 @import "web_dev";
+
+
 body {
  font-family: Roboto;
+}
+
+
+.flickity-prev-next-button.previous {
+    left: -70px;
+}
+
+.intro-card-text {
+  margin: 18px 25px;
+}
+
+.section-heading {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin: 50px 0;
+  color: #656565;
+  font-weight: 100;
+}
+
+.selected {
+  box-shadow: inset 0px -9px #facf5a;
+}
+
+
+.lockup {
+  img {
+    margin-right: 8px;
+    width: 31px;
+    margin-top: 10px;
+    height: 45px;
+  }
+  display: flex;
+  position: absolute;
+  top: 8px;
 }
 
 
@@ -16,7 +52,7 @@ body {
 }
 .text {
   font-weight: 100;
-  font-size: 25px;
+  font-size: 14px;
   color: #5d5d5d;
 }
 .dud {
@@ -248,7 +284,7 @@ body {
   color: #484848;
   letter-spacing: 2px;
   text-align: center;
-  text-transform: uppercase;
+
 }
 }
 
@@ -294,14 +330,20 @@ body {
   }
 }
 
+.iphone-img {
+  position: absolute;
+  right: -550px;
+  top: 90px;
+}
+
 .port-link {
-  text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #ff5151;
-  height: 60vh;
+  background-color: #ff5959;
+  height: 90vh;
+  overflow: hidden;
   h1 {
     color: white;
-    font-size: 36px;
+    font-size: 40px;
   }
   h2 {
     font-size: 18px;
@@ -309,74 +351,27 @@ body {
     font-family: "Roboto";
   }
   .left {
-    height: 60vh;
-    padding: 60px 49px;
+    height: 85vh;
+    display: flex;
+    padding: 70px 49px;
+    align-items: flex-end;
   }
   .right {
     background-image: url("../images/port-intro.png");
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 60vh;
   }
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .header {
-    text-align: center;
-    background-color: #ffffff;
-  }
-  .port-link {
-    background-color: #ff5151;
-    height: 60vh;
-    h1 {
-      color: white;
-      font-size: 46px;
-    }
-    h2 {
-      font-size: 18px;
-      color: white;
-    }
-    .left {
-      height: 50vh;
-      padding: 80px 49px;
-    }
-    .right {
-      background-image: url("../images/port-intro.png");
-      background-size: cover;
-      background-position: center;
-      height: 70vh;
-    }
-  }
-}
+
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .header {
     text-align: center;
     background-color: #ffffff;
-  }
-  .port-link {
-    background-color: #ff5151;
-    height: 60vh;
-    h1 {
-      color: white;
-      font-size: 46px;
-    }
-    h2 {
-      font-size: 18px;
-      color: white;
-    }
-    .left {
-      height: 50vh;
-      padding: 80px 49px;
-    }
-    .right {
-      background-image: url("../images/port-intro.png");
-      background-size: cover;
-      background-position: center;
-      height: 70vh;
-    }
   }
 }
 
@@ -386,28 +381,6 @@ body {
     text-align: center;
     background-color: #ffffff;
   }
-  .port-link {
-    background-color: #ff5151;
-    height: 60vh;
-    h1 {
-      color: white;
-      font-size: 46px;
-    }
-    h2 {
-      font-size: 18px;
-      color: white;
-    }
-    .left {
-      height: 50vh;
-      padding: 80px 49px;
-    }
-    .right {
-      background-image: url("../images/port-intro.png");
-      background-size: cover;
-      background-position: center;
-      height: 70vh;
-    }
-  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -415,28 +388,6 @@ body {
   .header {
     text-align: center;
     background-color: #ffffff;
-  }
-  .port-link {
-    background-color: #ff5151;
-    height: 60vh;
-    h1 {
-      color: white;
-      font-size: 46px;
-    }
-    h2 {
-      font-size: 18px;
-      color: white;
-    }
-    .left {
-      height: 50vh;
-      padding: 80px 49px;
-    }
-    .right {
-      background-image: url("../images/port-intro.png");
-      background-size: cover;
-      background-position: center;
-      height: 70vh;
-    }
   }
 }
 

@@ -1,0 +1,46 @@
+
+<div class="port-index">
+  <div class="carousel">
+    <div class="carousel-item">
+      <div class="card-pro">
+        <div class="card__image"><img src="" alt=""/>
+        </div>
+        <div class="card__info">
+           <div class="text">
+              <div class="title">
+                <h1 class="text-left"><span class="selected">Branding</span></h1>
+                <h1 class="text-left"><span>Graphic Design</span></h1>
+                <h1 class="text-left"><span>Web Development</span></h1>
+                 <p class="intro-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <% data.intro.each do |title, item| %>
+    <% link_to "projects/#{title}.html" do %>
+    <div class="carousel-item">
+      <div class="card-pro">
+        <div class="card__image"><img src="<%= image_path(item.image) %>" alt=""/>
+        </div>
+        <div class="card__info">
+           <div class="text">
+              <div class="title">
+                <h1>branding</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <% end %>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+
+
+
+
