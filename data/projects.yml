@@ -1,44 +1,130 @@
 rookstars:
   title: WWW.ROOKSTARS.EU
   description: "Designed, implemented and shipped to production a prototype of Rookstars, a platform that connects LeWagon alumni with NGOs looking to enhance their digital brand."
+<<<<<<< HEAD
   type: UX/UI Design
+=======
+  type: Fullstack-Web Development
+>>>>>>> 77d1a6758b71f28774a5466c7dcb8d468b238e56
   list: ["icon-01.svg", "icon-02.svg", "icon-03.svg"]
   city_slug: "Slimy"
   wifi: false
   rating: 4
+<<<<<<< HEAD
   service: Design
   color: "#02272f"
   image: "port-intro.png"
+=======
+  service: Web-Development
+  color: "#02272f"
+  image: "web-dev-q.jpg"
+>>>>>>> 77d1a6758b71f28774a5466c7dcb8d468b238e56
   image_1: "rookstars-head-img.png"
   long_description: "background: #02AAB0;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 "
+<<<<<<< HEAD
 hasmasca:
+=======
+hamaca:
+>>>>>>> 77d1a6758b71f28774a5466c7dcb8d468b238e56
   title: Hamaca Branding
   description: Pink clouds against the sunset.
   city_name: "Cotton Candy Fire"
   city_slug: "Sexy"
   wifi: true
   rating: 3
+<<<<<<< HEAD
   type: Branding
   color: "#ed5167"
   image: "branding-img.jpg"
   image_1: "hamaca-head-img.jpg"
+=======
+  type: wd
+  color: "#ed5167"
+  image: "branding-img.png"
+  image_1: "hamaca-head-img.png"
+>>>>>>> 77d1a6758b71f28774a5466c7dcb8d468b238e56
   background: "background: #fc4a1a;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 "
+<<<<<<< HEAD
 monsieurpaisllsard:
+=======
+monsieurpaillard:
+>>>>>>> 77d1a6758b71f28774a5466c7dcb8d468b238e56
   name: "www.uigradients.com"
   description: SAX on the beach.
   city_name: "Sandy Blues"
   city_slug: "Smooth"
   wifi: true
   rating: 5
+<<<<<<< HEAD
   type: Web Development
   image: "rp.jpg"
   background: "background: #1488CC;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 "
+=======
+  type: br
+  image: "branding-img.png"
+  background: "background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+martindefruit:
+  name: "www.uigradients.com"
+  description: Girls like fire too.
+  city_name: "Pyro Barbie"
+  city_slug: "Smooth"
+  wifi: true
+  type: gd
+  image: "gd3.jpg"
+  rating: 5
+  background: "background: #ec008c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+julzberlin:
+  name: "www.uigradients.com"
+  description: Instagram log anyone?.
+  city_name: "Sublime Light"
+  city_slug: "Smooth"
+  wifi: true
+  type: br
+  image: "gd1.jpg"
+  rating: 5
+  background: "background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+nomiss233:
+  name: "www.uigradients.com"
+  description: What your favorite vegetable?
+  city_name: "OHHhappines"
+  city_slug: "Natural"
+  wifi: true
+  rating: 5
+  type: br
+  image: "web-dev-img.jpg"
+  background: "background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+juliettech13:
+  name: "www.uigradients.com"
+  description: What your favorite vegetable?
+  city_name: "OHHhappines"
+  city_slug: "Natural"
+  wifi: true
+  rating: 5
+  type: gd
+  image: "gd2.jpg"
+  background: "background: #834d9b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d04ed6, #834d9b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d04ed6, #834d9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+>>>>>>> 77d1a6758b71f28774a5466c7dcb8d468b238e56
