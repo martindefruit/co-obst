@@ -1,0 +1,19 @@
+<section class="bg-light" id="portfolio">
+  <div class="container">
+    <div class="row">
+       <% data.projects.each do |title, project| %>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <p><%= project.type %></p>
+        <p style="color: #afafaf; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+      
+          <img class="img-fluid" src="<%= image_path(project.image) %>" alt="">
+        </a>
+        <br>
+        <a class="btn-cases-cards" href="">See Case Study ></a>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+

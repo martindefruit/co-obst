@@ -1,5 +1,17 @@
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .heading-cta {
+ background-color: #1b1b1b;
+ text-align: center;
+ height: 100%;
+ padding: 44px 95px;
+ h1 {
+  color: white;
+ }
+}
 .big-cta {
- background-color: #ffb938;
+ background-color: #ffffff;
  text-align: center;
  height: 300px;
  padding: 40px 0;
@@ -7,3 +19,55 @@
   color: white;
  }
 }
+}
+
+.img-fluid {
+	 width: 100%;
+   border-radius: 5px;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .heading-cta {
+ background-color: #212121;
+ text-align: center;
+ height: 100%;
+ padding: 44px 95px;
+ h1 {
+  color: white;
+ }
+}
+.big-cta {
+ background-color: #ffffff;
+ text-align: center;
+ height: 100%;
+ padding: 40px 0;
+ h1 {
+  color: white;
+ }
+}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .heading-cta {
+ background-color: #212121;
+ text-align: center;
+ height: 100%;
+ padding: 44px 95px;
+ h1 {
+  color: white;
+ }
+}
+.big-cta {
+ background-color: #212121;
+ text-align: center;
+ height: 100%;
+ padding: 40px 0;
+ h1 {
+  color: white;
+ }
+}
+}
+
+

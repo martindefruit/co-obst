@@ -1,20 +1,37 @@
 /* Main navbar */
 .navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+
+  background: none;
   transition: all 0.3s ease;
-  height: 70px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  // flex-direction: column;
+  grid-area: navbar;
+  position: relative;
 }
 
 /* Logo */
-.navbar-wagon-brand {
-  height: 50px;
+.navbar-wagon-brand img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  margin-left: -21%;
 }
 
+.image-cropper {
+  width: 130px;
+  box-shadow: 0 1px 12px 0px rgba(93, 93, 93, 0.65);
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  right: 45%;
+  top: -24%;
+}
 /* User Avatar */
 .navbar-wagon .avatar {
   height: 35px;
@@ -27,6 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  // flex-direction: column;
 }
 
 /* Basic navbar item */
@@ -52,6 +70,7 @@
   border-color: #E6E6E6;
 }
 .navbar-wagon-dropdown-menu li > a {
+
   transition: color 0.3s ease;
   font-weight: lighter !important;
   color: #999999 !important;
@@ -74,4 +93,161 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+/* Side Menu */
+#sidebar-wrapper {
+  hr {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+  }
+  position: fixed;
+  box-shadow: 0 1px 7px 0px rgba(93, 93, 93, 0.24);
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  transform: translateX(250px);
+  background: #ffffff;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin-top: 92px;
+  margin-left: 16px;
+  padding: 0;
+  list-style: none;
+
+}
+
+.sidebar-nav li {
+}
+
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: whitelor;
+  padding: 11px;
+  font-size: 16px;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  font-size: 16px;
+  background: rgba(52, 58, 64, 0.1);
+  height: 80px;
+  line-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color:black;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: black;
+  background: none;
+}
+
+#sidebar-wrapper.active {
+  right: 250px;
+  width: 450px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.rounded {
+  border-radius: 50px;
+}
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 1px 7px 0px rgba(93, 93, 93, 0.24);
+  text-align: center;
+  color: white;
+  background: white;
+  line-height: 50px;
+  z-index: 999;
+}
+
+.menu-toggle:focus, .menu-toggle:hover {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 1px 7px 0px rgba(93, 93, 93, 0.24);
+  text-align: center;
+  color: white;
+  background: white;
+  line-height: 50px;
+  z-index: 999;
+}
+
+.menu-toggle:hover {
+ position: fixed;
+ right: 15px;
+ top: 15px;
+ width: 50px;
+ height: 50px;
+ box-shadow: 0 1px 7px 0px rgba(93, 93, 93, 0.24);
+ text-align: center;
+ color: white;
+ background: white;
+ line-height: 50px;
+ z-index: 999;
+}
+
+.service-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+  .image-cropper {
+    width: 130px;
+    box-shadow: 0 1px 12px 0px rgba(93, 93, 93, 0.65);
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    right: 33%;
+    top: -24%;
+  }
 }
