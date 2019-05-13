@@ -1,0 +1,46 @@
+rookstars:
+  title: Web Design & Development
+  description: "Designed, implemented and shipped to production a prototype of Rookstars, a platform that connects LeWagon alumni with NGOs looking to enhance their digital brand."
+  type: Fullstack-Web Development
+  list: ["icon-01.svg", "icon-02.svg", "icon-03.svg"]
+  city_slug: "Slimy"
+  wifi: false
+  rating: 4
+  service: Web-Development
+  color: "#02272f"
+  image: "as1.jpg"
+  image_1: "rookstars-head-img.png"
+  long_description: "background: #02AAB0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+hamaca:
+  title: Branding
+  description: Pink clouds against the sunset.
+  city_name: "Cotton Candy Fire"
+  city_slug: "Sexy"
+  wifi: true
+  rating: 3
+  type: wd
+  color: "#ed5167"
+  image: "nc1.jpg"
+  image_1: "nc1.jpg"
+  background: "background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+hamacas:
+  title: Branding
+  description: Pink clouds against the sunset.
+  city_name: "Cotton Candy Fire"
+  city_slug: "Sexy"
+  wifi: true
+  rating: 3
+  type: wd
+  color: "#ed5167"
+  image: "mn1.jpg"
+  image_1: "mn1.jpg"
+  background: "background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
