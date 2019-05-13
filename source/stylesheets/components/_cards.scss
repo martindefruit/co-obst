@@ -18,6 +18,7 @@
 }
 
 
+
 .card {
    transition: ease 1s;
   .btn-card {
@@ -88,6 +89,9 @@
     align-items: center;
     
   }
+
+  
+
   .img-service-c {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     height: 420px;
@@ -376,6 +380,34 @@
     margin-top: 59px;
     padding: 30px;
   }
+}
+
+
+.over-text {
+  max-width: 900px;
+  width: 100%; 
+  padding: 78px 50px; 
+  margin: auto;
+  background: #202020; 
+  box-shadow: 1px 1px 24px #03030361;
+}
+
+.message-quote {
+  font-size: 25px; 
+  max-width: 900px; 
+  margin: auto; 
+  line-height: 39px;
+}
+
+.quote-client {
+  margin-top: 23px; 
+  font-size: 18px;
+  font-size: 
+  18px; 
+  width: 100%; 
+  text-align: center; 
+  margin: auto; 
+  margin-top: 21px;
 }
 
 

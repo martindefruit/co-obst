@@ -1,14 +1,14 @@
 rookstars:
   title: WWW.ROOKSTARS.EU
   description: "Designed, implemented and shipped to production a prototype of Rookstars, a platform that connects LeWagon alumni with NGOs looking to enhance their digital brand."
-  type: Fullstack-Web Development
+  type: UX/UI Design
   list: ["icon-01.svg", "icon-02.svg", "icon-03.svg"]
   city_slug: "Slimy"
   wifi: false
   rating: 4
-  service: Web-Development
+  service: Design
   color: "#02272f"
-  image: "web-dev-q.jpg"
+  image: "port-intro.png"
   image_1: "rookstars-head-img.png"
   long_description: "background: #02AAB0;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -21,10 +21,10 @@ hasmasca:
   city_slug: "Sexy"
   wifi: true
   rating: 3
-  type: wd
+  type: Branding
   color: "#ed5167"
-  image: "branding-img.png"
-  image_1: "hamaca-head-img.png"
+  image: "branding-img.jpg"
+  image_1: "hamaca-head-img.jpg"
   background: "background: #fc4a1a;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -36,48 +36,9 @@ monsieurpaisllsard:
   city_slug: "Smooth"
   wifi: true
   rating: 5
-  type: br
-  image: "branding-img.png"
+  type: Web Development
+  image: "rp.jpg"
   background: "background: #1488CC;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-"
-martindsefruit:
-  name: "www.uigradients.com"
-  description: Girls like fire too.
-  city_name: "Pyro Barbie"
-  city_slug: "Smooth"
-  wifi: true
-  type: gd
-  image: "gd3.jpg"
-  rating: 5
-  background: "background: #ec008c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-"
-monsieurpaisllasrd:
-  name: "www.uigradients.com"
-  description: SAX on the beach.
-  city_name: "Sandy Blues"
-  city_slug: "Smooth"
-  wifi: true
-  rating: 5
-  type: br
-  image: "branding-img.png"
-  background: "background: #1488CC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-"
-martindefruit:
-  name: "www.uigradients.com"
-  description: Girls like fire too.
-  city_name: "Pyro Barbie"
-  city_slug: "Smooth"
-  wifi: true
-  type: gd
-  image: "gd3.jpg"
-  rating: 5
-  background: "background: #ec008c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 "

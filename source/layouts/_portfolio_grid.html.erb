@@ -1,22 +1,19 @@
- <section class="bg-light" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="section-heading text-uppercase">Gallery</h1>
-        </div>
+<section class="bg-light" id="portfolio">
+  <div class="container">
+    <div class="row">
+       <% data.projects.each do |title, project| %>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <p><%= project.type %></p>
+        <p style="color: #afafaf; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+      
+          <img class="img-fluid" src="<%= image_path(project.image) %>" alt="">
+        </a>
+        <br>
+        <a class="btn-cases-cards" href="">See Case Study ></a>
       </div>
-    <div class="container" style="width: 900px;">
-      <div class="row">
-         <% data.projects.each do |title, project| %>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-        
-            <img class="img-fluid" src="<%= image_path(project.image) %>" alt="">
-          </a>
-        </div>
-        <% end %>
-      </div>
+      <% end %>
     </div>
-    </div>
-  </section>
+  </div>
+</section>
 

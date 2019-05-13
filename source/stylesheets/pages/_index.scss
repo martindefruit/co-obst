@@ -29,11 +29,15 @@ body {
   box-shadow: inset 0px -9px #facf5a;
 }
 
+.city {
+  margin-right: 40px;
+}
+
 
 .lockup {
   img {
     margin-right: 8px;
-    width: 31px;
+    width: 147px;
     margin-top: 10px;
     height: 45px;
   }
@@ -42,6 +46,16 @@ body {
   top: 8px;
 }
 
+.lockup-2 {
+  margin-bottom: 32px;
+  img {
+    margin-right: 8px;
+    width: 23px;
+    margin-top: 13px;
+    height: 35px;
+  }
+  display: flex;
+}
 
 .container-ani {
   height: 100%;
@@ -230,7 +244,6 @@ body {
   width: 536px;
   height: 360px;
     .sub-title {
-      position: absolute;
       left: 83px;
       top: 176px;
       color: #a0a0a0;
@@ -239,9 +252,9 @@ body {
 
     }
   .title {
-    position: absolute;
     left: 83px;
     font-size: 31px;
+    margin-bottom: 30px;
     width: 460px;
     top: 100px;
     hr {
@@ -252,6 +265,7 @@ body {
     }
     h1 {
       font-size: 26px;
+     line-height: 38px;
     }
   }
 }
@@ -261,15 +275,14 @@ body {
 }
 .image-card {
     background-attachment: fixed;
-    padding: 28px;
-    background-size: contain;
-    background-image: url("profile_2.jpg"), url("profile_2.png");
+    padding: 28px 71px;
     background-repeat: no-repeat;
-    background-color: #00090f;
+    background-color: transparent;
     background-position-y: 250px;
     background-size: contain;
     background-position-x: 790px;
-    height: 422px;
+    height: 482px;
+    padding-bottom: 0;
 }
 
 
@@ -332,13 +345,32 @@ body {
 
 .iphone-img {
   position: absolute;
-  right: -550px;
+  right: -600px;
   top: 90px;
 }
 
+.card-wierd {
+    padding: 23px;
+    height: 540px;
+        margin-bottom: 15px;
+  }
+
+.iphone-2 {
+  position: absolute;
+  right: 0;
+  height: 548px;
+  top: 0px;
+}
+.btn-special {
+    padding: 11px 30px;
+    border: solid 2px white;
+    background: transparent;
+    margin-top: 14px;
+  }
+
 .port-link {
+  box-shadow: 1px 1px 62px lightgrey;
   letter-spacing: 1px;
-  background-color: #ff5959;
   height: 90vh;
   overflow: hidden;
   h1 {
@@ -362,6 +394,15 @@ body {
     background-position: center;
     height: 60vh;
   }
+}
+
+.port-link-2 {
+      padding: 40px;
+  text-align: left;
+ 
+  p {
+    line-height: 38px;
+  }    
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -463,9 +504,8 @@ body {
 }
 
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #fff;
-    background-color: #f44336;
-    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.27);
+    color: #000;
+    background-color: #ffffff;
     }
 
     a {
