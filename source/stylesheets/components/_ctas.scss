@@ -22,8 +22,9 @@
 }
 
 .img-fluid {
-	 width: 100%;
+	 max-width: 200px;
    border-radius: 5px;
+   max-height: 200px;
 }
 
 // Large devices (desktops, 992px and up)
