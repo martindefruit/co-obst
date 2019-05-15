@@ -431,11 +431,6 @@ body {
   }
 }
 
-.iphone-img {
-  position: absolute;
-  right: -600px;
-  top: 90px;
-}
 
 .card-wierd {
     padding: 23px;
@@ -469,12 +464,7 @@ body {
     color: white;
     font-family: "Roboto";
   }
-  .left {
-    height: 85vh;
-    display: flex;
-    padding: 70px 49px;
-    align-items: flex-end;
-  }
+  
   .right {
     background-image: url("../images/port-intro.png");
     background-size: cover;
@@ -485,7 +475,7 @@ body {
 
 .port-link-2 {
       padding: 40px;
-  text-align: left;
+  text-align: center;
  
   p {
     line-height: 38px;
@@ -494,6 +484,11 @@ body {
 
 // Small devices (landscape phones, 576px and up)
 
+.width-constraint {
+  max-width: 747px;
+  text-align: left;
+  margin: auto;
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
@@ -601,3 +596,46 @@ body {
         color: #acacac;
       }
     }
+
+
+
+.iphone-img {
+    position: absolute;
+    right: -40px;
+    top: 90px;
+    z-index: -1;
+    width: 470px;
+
+}
+
+.left {
+    height: 95vh;
+    display: flex;
+    padding: 70px 49px;
+    align-items: flex-end;
+  }
+
+
+.header-home {
+  font-size: 22px !important;
+}
+
+
+@media (min-width: 768px) {
+  .iphone-img {
+    position: absolute;
+    right: -600px;
+    top: 90px;
+    width: 680px;
+  }
+  .left {
+    height: 85vh;
+  }
+  .header-home {
+  font-size: 40px !important;
+}
+
+}
+
+
+
