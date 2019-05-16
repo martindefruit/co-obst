@@ -483,9 +483,6 @@ body {
 }
 
 
-.header-home {
-  line-height: 59px;
-}
 // Small devices (landscape phones, 576px and up)
 
 .width-constraint {
@@ -622,7 +619,10 @@ body {
 
 .header-home {
   font-size: 22px !important;
+  line-height: 36px;
+  margin-top: 0;
 }
+
 
 
 @media (min-width: 768px) {
@@ -637,8 +637,8 @@ body {
   }
   .header-home {
   font-size: 40px !important;
+  line-height: 58px;
 }
-
 }
 
 
