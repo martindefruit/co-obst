@@ -473,12 +473,12 @@ body {
 }
 
 .port-link-2 {
-   padding: 100px 0;
+   
+    padding: 100px 40px;
     text-align: center;
-
-  p {
-    line-height: 38px;
-  }    
+    font-family: 'roboto';
+   background-image: linear-gradient(rgba(36, 45, 118, 0.81), rgb(13, 22, 90)), url(../images/n.jpg);
+  
 }
 
 
@@ -617,9 +617,11 @@ body {
 
 
 .header-home {
-  font-size: 22px !important;
+  font-size: 26px !important;
   line-height: 36px;
   margin-top: 0;
+  color: #2e3676;
+  font-family: Merriweather;
 }
 
 .port-link {
