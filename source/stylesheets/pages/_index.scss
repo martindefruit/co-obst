@@ -454,6 +454,7 @@ body {
   box-shadow: 1px 1px 62px lightgrey;
   letter-spacing: 1px;
   overflow: hidden;
+  background: #0d9596;
   h1 {
     color: white;
     font-size: 40px;
@@ -603,7 +604,6 @@ body {
     position: absolute;
     right: -40px;
     top: 79px;
-    z-index: -1;
     width: 100%;
 }
 
@@ -627,24 +627,34 @@ body {
    height: 100vh;
 }
 
+.name {
+      color: white;
+    background: #151345;
+    font-size: 20px;
+    padding: 29px;
+    top: -27px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 @media (min-width: 768px) {
   .iphone-img {
     position: absolute;
     right: -600px;
-    top: 90px;
+    top: 19px;
     width: 680px;
   }
   .left {
-    height: 85vh;
+    height: 75vh;
   }
   .header-home {
     font-size: 40px !important;
     line-height: 58px;
   }
   .port-link {
-    height: 90vh;
+    height: 75vh;
   }
 }
 
