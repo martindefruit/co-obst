@@ -20,10 +20,12 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <div class="container-white"></div>
     <%= yield %>
     <div><%= partial "layouts/footer" %></div>
     <!-- JavaScript -->
     <%= javascript_include_tag "application" %>
     <!-- Bootstrap core JavaScript -->
+    
   </body>
 </html>
