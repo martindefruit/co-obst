@@ -157,8 +157,7 @@
 }
 
 .btn-primary {
-    background-color: #fa6768;
-    /* border: solid 1px #212981; */
+    background-color: #0d9697;
     font-size: 15px;
     color: #f4f4f4;
 }
@@ -220,18 +219,19 @@
 }
 
 .signup-section {
-  padding: 7rem 0;
+  padding: 33px;
   color: white;
-  background-color: #88c5cc;
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
 }
 
 .signup-section .form-group input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+ 
+    box-shadow: 1px 1px 20px #8080801a;
   padding: 1.25rem 2rem;
   height: auto;
   font-family: 'Roboto';

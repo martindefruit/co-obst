@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="<%= image_path 'favicon-01.png' %>">
     <!-- CSS -->
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <!-- JavaScript -->
@@ -20,10 +21,12 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <div class="container-white"></div>
     <%= yield %>
     <div><%= partial "layouts/footer" %></div>
     <!-- JavaScript -->
     <%= javascript_include_tag "application" %>
     <!-- Bootstrap core JavaScript -->
+    
   </body>
 </html>
